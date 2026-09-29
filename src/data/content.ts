@@ -2,6 +2,8 @@
  * Single Source of Truth for all portfolio content, copy, links, and project data.
  * All components read strictly from this file.
  */
+const asset = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
 
 export const siteContent = {
   personal: {
