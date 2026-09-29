@@ -102,7 +102,7 @@ export const siteContent = {
         oneLiner: "New store order validation, Google Sheets recording, and immediate team notifications.",
         tags: ["n8n", "Shopify", "Google Sheets", "Telegram"],
         badge: "Demo build",
-        image: asset("images/projects/workflow-1.jpg"),
+        image: asset("images/projects/workflow-1.svg"),
         alt: "Diagram of order-to-CRM event sync workflow in n8n",
         modal: {
           problem: "Manual order copying caused fulfillment delays and frequent data entry mistakes.",
@@ -117,7 +117,7 @@ export const siteContent = {
         oneLiner: "Form submission capture, CRM contact enrichment, automated reply, and team alert.",
         tags: ["n8n", "Webhooks", "CRM", "Email API"],
         badge: "Demo build",
-        image: asset("images/projects/workflow-2.jpg"),
+        image: asset("images/projects/workflow-2.svg"),
         alt: "Diagram of instant lead follow-up and notification pipeline in n8n",
         modal: {
           problem: "Delayed responses to website inquiries resulted in lost sales and cold leads.",
@@ -132,7 +132,7 @@ export const siteContent = {
         oneLiner: "Payment gateway webhook processing with cryptographic verification, retries, and failure alerts.",
         tags: ["n8n", "PayMob", "Stripe", "HMAC SHA256"],
         badge: "Demo build",
-        image: asset("images/projects/workflow-3.jpg"),
+        image: asset("images/projects/workflow-3.svg"),
         alt: "Diagram of cryptographic webhook verification and error recovery flow in n8n",
         modal: {
           problem: "Unverified webhooks and transient network drops caused duplicate orders and lost revenue.",
